@@ -56,7 +56,7 @@ except:
     print("Error reading backup log file")
     sys.exit(CRIT)
 
-if last_summary is "NONE":
+if last_summary == "NONE":
     print("No backup summary found in log file")
     sys.exit(CRIT)
 
